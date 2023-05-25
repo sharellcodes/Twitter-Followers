@@ -8,10 +8,11 @@ from http.client import BadStatusLine
 import networkx as nx
 
 # Credentials
-CONSUMER_KEY = 'b70MIYS2d9pnhnXLwIisgojPG'
-CONSUMER_SECRET = 'NR0SXDQXu1q0LF0DhBEVZsDlnXuFpuX7LWwj358ccEOPcxm8RV'
-OAUTH_TOKEN = '1232047548355022854-J5oFCCVxahHV2jofLUecQZwW9QZJW3'
-OAUTH_TOKEN_SECRET = 'clLbPkuVYyYBoQBLi7BefIdtrcfKkPPwW46kQO3yKN7q9'
+# 05/25/23 - I added 'xxx' because these credentials are user specific
+CONSUMER_KEY = 'xxx'
+CONSUMER_SECRET = 'xxx'
+OAUTH_TOKEN = 'xxx'
+OAUTH_TOKEN_SECRET = 'xxx'
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 twitter_api = twitter.Twitter(auth=auth)
 
@@ -92,13 +93,11 @@ def get_friends_followers_ids(twitter_api, screen_name=None, user_id=None,
     assert (screen_name != None) != (user_id != None), \
         "Must have screen_name or user_id, but not both"
 
-    # get_friends_ids = partial(make_twitter_request, twitter_api.friends.ids, count=5000)
     get_followers_ids = partial(make_twitter_request, twitter_api.followers.ids, count=5000)
 
     friends_ids, followers_ids = [], []
 
     for twitter_api_func, limit, ids, label in [
-        # [get_friends_ids, friends_limit, friends_ids, "friends"],
         [get_followers_ids, followers_limit, followers_ids, "followers"]
     ]:
 

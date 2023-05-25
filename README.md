@@ -1,5 +1,5 @@
 # Twitter-Followers
-Data mining script that was developed for a Social Media and Data Mining course at Syracuse University. Worked with a group of five other people.
+This is a Python script that utilizes data mining, data visualization and the Twitter API. This script was developed for a Social Media and Data Mining course at Syracuse University, and I worked with a group of five other people. It was created in 2020.
 
 ## Objective
 To find the number/percentage of Twitter follower overlap for U.S. politicians in order to analyze how often people follow politicians of opposing political parties.
@@ -15,4 +15,5 @@ Although the intention is to compare politicians, any Twitter user can be used.
 7. The output will be a bar chart to visualize the comparisons (see [common_twitter_followes.png](https://github.com/sharellcodes/Twitter-Followers/blob/main/common_twitter_followers.png)), as well as a written summary with the percentages of the overlaps (see [overlap_percentages.txt](https://github.com/sharellcodes/Twitter-Followers/blob/main/overlap_percentages.txt))
 
 ## Other Notes
-With the exception of adding and removing a few comments, this code hasn't been updated since it was written in 2020. I have not optimized the code since then, but I may do so in the future.
+* With the exception of adding and removing a few comments, this code hasn't been updated since it was written in 2020. I have not optimized the code since then, but I may do so in the future.
+* There are a lot of commented out sections within the code. I kept them there because they can be helpful should someone decide to use different parameters to get the data, or produce different visuals for the data.

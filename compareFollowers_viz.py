@@ -1,6 +1,3 @@
-# Andrew Kelsey, Kamira Nowlin-Flagg, Sharell Scott
-# Dante Harris, Adam Glickman, Tyrone Fernandes
-
 import twitter
 from functools import partial
 from sys import maxsize as maxint

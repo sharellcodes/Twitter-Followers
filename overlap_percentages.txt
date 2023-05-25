@@ -1,0 +1,34 @@
+User 1 Followers that Follow User 2:  7.568456261692839
+
+
+User 1 Followers that Follow User 3:  9.130336186858665
+
+
+User 1 Followers that Follow User 4:  7.74703781393503
+
+
+User 2 Followers that Follow User 1:  8.134291981476968
+
+
+User 2 Followers that Follow User 3:  6.684133560809164
+
+
+User 2 Followers that Follow User 4:  16.551913234218866
+
+
+User 3 Followers that Follow User 1:  13.849593670722793
+
+
+User 3 Followers that Follow User 2:  9.433718880337102
+
+
+User 3 Followers that Follow User 4:  27.20901234037064
+
+
+User 4 Followers that Follow User 1:  5.583590414121396
+
+
+User 4 Followers that Follow User 2:  11.099760965942753
+
+
+User 4 Followers that Follow User 3:  12.92826935256502

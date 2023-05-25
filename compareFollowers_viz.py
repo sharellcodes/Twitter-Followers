@@ -98,13 +98,11 @@ def get_friends_followers_ids(twitter_api, screen_name=None, user_id=None,
         "Must have screen_name or user_id, but not both"
 
 
-    # get_friends_ids = partial(make_twitter_request, twitter_api.friends.ids, count=5000)
     get_followers_ids = partial(make_twitter_request, twitter_api.followers.ids, count=5000)
 
     friends_ids, followers_ids = [], []
 
     for twitter_api_func, limit, ids, label in [
-        #[get_friends_ids, friends_limit, friends_ids, "friends"],
         [get_followers_ids, followers_limit, followers_ids, "followers"]
     ]:
 
@@ -137,10 +135,6 @@ Objective: Find the number/percentage of followers of the given users that overl
 Input: two user ids - could later be a list of ids instead
 Output: Number (%) between 0 and 100
 '''
-
-# I modified the get_friends_followers_ids function to only return followers
-# In an attempt to save API calls (?)
-#def followers_in_common(user1, user2):
 
 
 ##### Using User ID #####

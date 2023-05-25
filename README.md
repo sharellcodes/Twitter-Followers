@@ -14,4 +14,4 @@ Find the number/percentage of followers of the given users that overlap
 4. Get the Twitter credentials at (insert where to get them), and replace the fields with those credentials.
 5. If you'd like, replace the current politicians that are being used with your desired politicians.
 6. Run the code. It will likely be stopped due to rate limiting and you'll have to wait 15 minutes for it to run again. This may happen more than once.
-7. The output will be a bar chart to visualize the comparisons (see ./common_twitter_followes.png), as well as a written summary with the percentages of the overlaps (see ./overlap_percentages.txt)
+7. The output will be a bar chart to visualize the comparisons (see [common_twitter_followes.png](https://github.com/sharellcodes/Twitter-Followers/blob/main/common_twitter_followers.png)), as well as a written summary with the percentages of the overlaps (see ./overlap_percentages.txt)

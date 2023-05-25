@@ -11,10 +11,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Credentials
-CONSUMER_KEY = 'b70MIYS2d9pnhnXLwIisgojPG'
-CONSUMER_SECRET = 'NR0SXDQXu1q0LF0DhBEVZsDlnXuFpuX7LWwj358ccEOPcxm8RV'
-OAUTH_TOKEN = '1232047548355022854-J5oFCCVxahHV2jofLUecQZwW9QZJW3'
-OAUTH_TOKEN_SECRET = 'clLbPkuVYyYBoQBLi7BefIdtrcfKkPPwW46kQO3yKN7q9'
+CONSUMER_KEY = 'xxx'
+CONSUMER_SECRET = 'xxx'
+OAUTH_TOKEN = 'xxx'
+OAUTH_TOKEN_SECRET = 'xxx'
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 twitter_api = twitter.Twitter(auth=auth)
 
